@@ -1,0 +1,152 @@
+@media screen and (max-width: 992px) {
+    .section-spacing {
+        padding: 70px 0;
+    }
+    .hero-couple-title {
+        font-size: 2.8rem;
+    }
+    .couple-profiles-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        max-width: 440px;
+        margin: 40px auto 0;
+    }
+    .couple-center-divider {
+        display: none;
+    }
+    .event-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 480px;
+        margin: 36px auto 0;
+    }
+    .wishes-container-layout {
+        grid-template-columns: 1fr;
+        max-width: 580px;
+        margin: 36px auto 0;
+    }
+    .gift-cards-grid {
+        grid-template-columns: 1fr;
+        max-width: 440px;
+        margin: 32px auto 0;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+    .lightbox-nav-btn {
+        width: 40px;
+        height: 40px;
+    }
+    .lightbox-prev-btn { left: -10px; }
+    .lightbox-next-btn { right: -10px; }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 15px;
+    }
+    .section-spacing {
+        padding: 60px 0;
+    }
+    .content-container, .narrow-container {
+        padding: 0 18px;
+    }
+    .cover-inner {
+        padding: 38px 20px;
+    }
+    .cover-title {
+        font-size: 2rem;
+    }
+    .cover-guest-name {
+        font-size: 1.4rem;
+    }
+    .hero-section {
+        padding: 60px 18px;
+        min-height: auto;
+    }
+    .hero-couple-title {
+        font-size: 2.4rem;
+    }
+    .hero-couple-image-wrapper {
+        max-width: 280px;
+    }
+    .hero-image {
+        height: 360px;
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+    .countdown-grid {
+        gap: 10px;
+        max-width: 100%;
+    }
+    .countdown-card {
+        padding: 16px 8px;
+    }
+    .countdown-num {
+        font-size: 2.1rem;
+    }
+    .countdown-label {
+        font-size: 0.7rem;
+    }
+    .timeline-wrapper::before {
+        left: 20px;
+    }
+    .timeline-item {
+        width: 100%;
+        left: 0 !important;
+        padding-left: 48px !important;
+        padding-right: 0 !important;
+        text-align: left !important;
+        margin-bottom: 36px;
+    }
+    .timeline-dot {
+        left: 10px !important;
+        right: auto !important;
+    }
+    .maps-frame-wrapper {
+        height: 280px;
+    }
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+    .gallery-lightbox-modal {
+        padding: 16px;
+    }
+    .lightbox-image {
+        max-height: 60vh;
+    }
+    .lightbox-prev-btn { left: 4px; }
+    .lightbox-next-btn { right: 4px; }
+    .radio-group-options {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    .radio-card-label {
+        justify-content: flex-start;
+        padding: 10px 14px;
+    }
+    .back-to-top-btn {
+        bottom: 74px;
+        right: 16px;
+        width: 38px;
+        height: 38px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .cover-title {
+        font-size: 1.75rem;
+    }
+    .hero-couple-title {
+        font-size: 2.1rem;
+    }
+    .section-title {
+        font-size: 1.8rem;
+    }
+    .countdown-num {
+        font-size: 1.8rem;
+    }
+    .countdown-card {
+        padding: 12px 6px;
+    }
+}
