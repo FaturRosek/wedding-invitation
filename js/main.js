@@ -1,10 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+    removeExternalBadges();
     syncConfigData();
     initCover();
     initScrollReveal();
     initNavigation();
     initCalendarButtons();
 });
+function removeExternalBadges() {
+    const purge = () => {
+        const badge = document.getElementById('nl-badge') || document.querySelector('.nl-badge') || document.querySelector('[aria-label*="Netlify"]');
+        if (badge) badge.remove();
+    };
+    purge();
+    const observer = new MutationObserver(purge);
+    observer.observe(document.documentElement, { childList: true, subtree: true });
+}
 function syncConfigData() {
     if (typeof WEDDING_CONFIG !== 'undefined') {
         if (WEDDING_CONFIG.couple) {
