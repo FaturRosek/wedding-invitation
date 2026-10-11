@@ -1416,3 +1416,15 @@ button {
     color: #FFFFFF;
     transform: translateY(-3px);
 }
+#nl-badge,
+.nl-badge,
+[id*="nl-badge"],
+[class*="nl-badge"],
+[data-netlify-deploy-id],
+iframe[src*="netlify"],
+button[aria-label*="Netlify"] {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
