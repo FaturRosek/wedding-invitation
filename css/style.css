@@ -1231,9 +1231,10 @@ button {
 }
 .gift-cards-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    max-width: 440px;
+    margin: 36px auto 0;
     gap: 24px;
-    margin-top: 36px;
 }
 .bank-gift-card {
     background: var(--surface-card);

@@ -9,7 +9,7 @@ const WEDDING_CONFIG = {
       mother: "Ibu [Nama Ibu]",
       parentsText: "Putri tercinta dari Bapak [Nama Ayah] & Ibu [Nama Ibu]",
       instagram: "@siti.rohmah",
-      photo: "assets/images/bride-profile.jpeg",
+      photo: "assets/images/foto-wanita.jpeg",
       bio: "Sosok wanita yang hangat dan penuh kelembutan, siap melangkah dalam ikatan suci mengarungi bahtera rumah tangga.",
     },
     groom: {
@@ -21,7 +21,7 @@ const WEDDING_CONFIG = {
       mother: "Ibu [Nama Ibu]",
       parentsText: "Putra tercinta dari Bapak [Nama Ayah] & Ibu [Nama Ibu]",
       instagram: "@m.syakroni",
-      photo: "assets/images/groom-profile.jpeg",
+      photo: "assets/images/foto-pria.jpeg",
       bio: "Pria bertanggung jawab dan penuh keteguhan hati yang memantapkan langkah menjemput separuh agamanya.",
     },
     mainPhoto: "assets/images/couple-main.jpeg",
@@ -169,15 +169,9 @@ const WEDDING_CONFIG = {
     accounts: [
       {
         bank: "BCA",
-        accountNumber: "1234567890",
+        accountNumber: "1851951585",
         accountName: "Siti Rohmah",
         logo: "bca",
-      },
-      {
-        bank: "BRI",
-        accountNumber: "098765432109876",
-        accountName: "Mohammad Syakroni",
-        logo: "bri",
       },
     ],
     giftAddress: {
